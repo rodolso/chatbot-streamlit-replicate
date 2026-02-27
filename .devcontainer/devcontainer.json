@@ -1,0 +1,46 @@
+{
+  "name": "Chatbot Streamlit + Replicate",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+
+  // Reenvío de puertos
+  "forwardPorts": [8501],
+  "portsAttributes": {
+    "8501": {
+      "label": "Streamlit",
+      "onAutoForward": "openPreview"
+    }
+  },
+
+  // Extensiones de VS Code
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "editor.formatOnSave": true
+      }
+    }
+  },
+
+  // Secreto de Codespaces → variable de entorno en el contenedor
+  "secrets": {
+    "REPLICATE_API_TOKEN": {
+      "description": "API token de Replicate. Obtenlo en https://replicate.com/account/api-tokens",
+      "documentationUrl": "https://replicate.com/account/api-tokens"
+    }
+  },
+
+  // Comando que se ejecuta una vez creado el contenedor
+  "postCreateCommand": "pip install --no-cache-dir -r requirements.txt"
+}
