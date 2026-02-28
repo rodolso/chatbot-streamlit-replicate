@@ -48,13 +48,13 @@ pip install -r requirements.txt
 Para completar correctamente el taller y construir el asistente de IA paso a paso, debes seguir las actividades incluidas en los cuadernos Jupyter del repositorio:
 
 ### Parte 1 — Uso de la API de Replicate  
-**Archivo:** `Parte_1_Como_Usar_Replicate.ipynb`
+**Archivo:** `01_Como_Usar_Replicate.ipynb`
 
 - Aprenderás a registrarte en Replicate, generar un token y conectarte a la API.  
 - Ejecutarás modelos de lenguaje, ajustarás parámetros y realizarás pruebas locales.
 
 ### Parte 2 — Creación de la interfaz con Streamlit  
-**Archivo:** `Parte_2_Interfaz_con_Streamlit.ipynb`
+**Archivo:** `02_Interfaz_con_Streamlit.ipynb`
 
 - Construirás la interfaz web del chatbot paso a paso con Streamlit.  
 - Implementarás la gestión del estado de sesión, el envío de mensajes y la recepción de respuestas en tiempo real.
