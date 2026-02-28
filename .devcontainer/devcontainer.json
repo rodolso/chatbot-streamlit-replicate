@@ -39,8 +39,6 @@
       "description": "API token de Replicate. Obtenlo en https://replicate.com/account/api-tokens",
       "documentationUrl": "https://replicate.com/account/api-tokens"
     }
-  },
+  }
 
-  // Comando que se ejecuta una vez creado el contenedor
-  "postCreateCommand": "pip install --no-cache-dir -r requirements.txt"
 }
