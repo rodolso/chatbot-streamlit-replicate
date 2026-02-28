@@ -94,9 +94,8 @@ La aplicación resultante no está lista para producción y se proporciona sin g
 
 ## Autoría
 
-Rodrigo Oliver  
+Rodrigo Oliver - [LinkedIn](https://www.linkedin.com/in/rodrigo-oliver)  
 *Data Scientist, Lead Instructor Bootcamp Data Science Online @ The Bridge School*  
-[www.linkedin.com/in/rodrigo-oliver](www.linkedin.com/in/rodrigo-oliver)  
 
 Proyecto adaptado a partir de:  
 - [streamlit-replicate-app](https://github.com/sfc-gh-cnantasenamat/streamlit-replicate-app)  
