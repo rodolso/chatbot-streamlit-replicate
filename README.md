@@ -1,5 +1,7 @@
 # Taller: Construye un Asistente de IA con Streamlit y Replicate
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/rodolso/chatbot-streamlit-replicate)
+
 ## Descripción
 
 En este taller aprenderás a crear paso a paso un asistente de inteligencia artificial desde cero.  
@@ -25,8 +27,10 @@ Combinarás la facilidad de uso de **Streamlit** para construir interfaces inter
 ### Opción 1: GitHub Codespaces (recomendada)
 
 1. Usa este repositorio como plantilla.  
-2. Desde tu copia del repositorio, abre tu entorno en **GitHub Codespaces**.  
+2. Desde tu copia del repositorio, abre tu entorno en **GitHub Codespaces** con el botón que encontrarás justo debajo.  
 3. Las dependencias se instalarán automáticamente.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/rodolso/chatbot-streamlit-replicate)
 
 ### Opción 2: Instalación local
 
@@ -45,7 +49,7 @@ pip install -r requirements.txt
 
 ## Instrucciones
 
-Para completar correctamente el taller y construir el asistente de IA paso a paso, debes seguir las actividades incluidas en los cuadernos Jupyter del repositorio:
+Para completar correctamente el taller, y construir el asistente de IA, debes seguir las actividades incluidas en los cuadernos Jupyter del repositorio:
 
 ### Parte 1 — Uso de la API de Replicate  
 **Archivo:** `01_Como_Usar_Replicate.ipynb`
