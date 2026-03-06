@@ -28,7 +28,7 @@ En este taller aprenderás a crear un asistente de inteligencia artificial desde
 2. Desde tu copia del repositorio, abre tu entorno en **GitHub Codespaces** con el botón que encontrarás justo debajo.  
 3. Las dependencias se instalarán automáticamente.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/rodolso/chatbot-streamlit-replicate)
+[![Use this template](https://img.shields.io/badge/Use_this_template-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=black)](https://github.com/rodolso/chatbot-streamlit-replicate/generate)
 
 ### Opción 2: Instalación local
 
@@ -87,7 +87,7 @@ Si encuentras un error o quieres proponer mejoras, abre un *issue* o envía un *
 ## Licencia
 
 - Este proyecto se distribuye bajo licencia MIT.  
-- Para la licencia de los modelos LLaMA, consulta el Acuerdo de Licencia de Meta Platforms, Inc.  
+- Para la licencia de los modelos Llama, consulta el Acuerdo de Licencia de Meta Platforms, Inc.  
 
 ## Aviso
 
