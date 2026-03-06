@@ -4,16 +4,14 @@
 
 ## Descripción
 
-En este taller aprenderás a crear paso a paso un asistente de inteligencia artificial desde cero.  
-Combinarás la facilidad de uso de **Streamlit** para construir interfaces interactivas con la potencia de los modelos de lenguaje de **Replicate**, dentro de un flujo de trabajo sencillo y reproducible.
+En este taller aprenderás a crear un asistente de inteligencia artificial desde cero, combinando la facilidad de uso de **Streamlit** con la potencia de los modelos de **Replicate**.
 
 ## Características principales
 
+- Configuración de API sencilla con validación automática.  
 - Interfaz conversacional con historial de conversación.  
 - System Prompt editable para personalizar el comportamiento del modelo.  
 - Streaming de respuestas en tiempo real.  
-- Configuración de API sencilla con validación automática.  
-- Tema personalizable mediante archivos TOML.  
 - Despliegue gratuito en Streamlit Cloud.
 
 ## Requisitos previos
