@@ -1,7 +1,5 @@
 # Taller: Construye un Asistente de IA con Streamlit y Replicate
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/rodolso/chatbot-streamlit-replicate)
-
 ## Descripción
 
 En este taller aprenderás a crear un asistente de inteligencia artificial desde cero, combinando la facilidad de uso de **Streamlit** con la potencia de los modelos de **Replicate**.
@@ -22,15 +20,26 @@ En este taller aprenderás a crear un asistente de inteligencia artificial desde
 
 ## Instalación
 
-### Opción 1: GitHub Codespaces (recomendada)
+### Opción 1: Plantilla + GitHub Codespaces (recomendada)
 
-1. Usa este repositorio como plantilla.  
-2. Desde tu copia del repositorio, abre tu entorno en **GitHub Codespaces** con el botón que encontrarás justo debajo.  
-3. Las dependencias se instalarán automáticamente.
+1. Crea tu propia copia de este repositorio usándolo como plantilla, puedes hacerlo pulsando el botón verde "Use this template".  
+2. Desde tu copia del repositorio, abre tu entorno de programación en **GitHub Codespaces**, puedes hacerlo con el botón "Open in GitHub Codespaces" que encontrarás justo debajo.  
+3. Las dependencias se instalarán automáticamente en el entorno y podrás comenzar el taller.
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=black)](https://github.com/rodolso/chatbot-streamlit-replicate/generate)
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rodolso/chatbot-streamlit-replicate/generate)
+[![Open in GitHub Codespaces](https://img.shields.io/badge/Open_in_GitHub_Codespaces-181717?style=for-the-badge&logo=github&logoColor=white)](https://codespaces.new/)  
 
-### Opción 2: Instalación local
+
+### Opción 2: GitHub Codespaces (sin plantilla)
+
+Si solo quieres explorar el taller libremente, puedes crear un entorno en GitHub Codespaces basado en este repositorio y, si al final te gusta lo que has aprendido, guardar los cambios en tu propio repositorio haciendo un fork.
+
+Para hacerlo puedes usar el siguiente acceso rápido:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/rodolso/chatbot-streamlit-replicate)
+
+
+### Opción 3: Instalación local
 
 ```bash
 # 1. Clona el repositorio
