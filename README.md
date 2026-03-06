@@ -22,21 +22,32 @@ En este taller aprenderás a crear un asistente de inteligencia artificial desde
 
 ### Opción 1: Plantilla + GitHub Codespaces (recomendada)
 
-1. Crea tu propia copia de este repositorio usándolo como plantilla, puedes hacerlo pulsando el botón verde "Use this template".  
-2. Desde tu copia del repositorio, abre tu entorno de programación en **GitHub Codespaces**, puedes hacerlo con el botón "Open in GitHub Codespaces" que encontrarás justo debajo.  
-3. Las dependencias se instalarán automáticamente en el entorno y podrás comenzar el taller.
+1. Crea tu propia copia de este repositorio usándolo como plantilla, puedes hacerlo pulsando el botón verde **Step 1: Use this template**.  
+2. Abre tu copia del repositorio en un entorno de programación en *GitHub Codespaces*, puedes hacerlo con el botón **Step 2: Open in GitHub Codespaces**.  
+3. En el menú de creación de *GitHub Codespaces*, selecciona tu repositorio en el desplegable *Repository* y el resto de campos deberían configurarse solos.  
+    > **Importante:** En la parte inferior del menú verás que GitHub te solicita tu token de Replicate así que, si dispones de uno, introdúcelo y pulsa **Create Codespace**.
+4. Las dependencias se instalarán automáticamente en el entorno y podrás comenzar el taller.
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rodolso/chatbot-streamlit-replicate/generate)
-[![Open in GitHub Codespaces](https://img.shields.io/badge/Open_in_GitHub_Codespaces-181717?style=for-the-badge&logo=github&logoColor=white)](https://codespaces.new/)  
-
+<p align="center">
+  <a href="https://github.com/rodolso/chatbot-streamlit-replicate/generate">
+    <img src="https://img.shields.io/badge/Step_1:_Use_this_template-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Use this template"/>
+  </a>
+  <a href="https://codespaces.new/">
+    <img src="https://img.shields.io/badge/Step_2:_Open_in_GitHub_Codespaces-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open in GitHub Codespaces"/>
+  </a>
+</p>
 
 ### Opción 2: GitHub Codespaces (sin plantilla)
 
-Si solo quieres explorar el taller libremente, puedes crear un entorno en GitHub Codespaces basado en este repositorio y, si al final te gusta lo que has aprendido, guardar los cambios en tu propio repositorio haciendo un fork.
+Si solo quieres explorar el taller libremente, puedes crear un entorno en GitHub Codespaces basado en este repositorio y, si al final te gusta lo que has aprendido, guardar los cambios en tu propio repositorio haciendo un *fork*.
 
 Para hacerlo puedes usar el siguiente acceso rápido:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/rodolso/chatbot-streamlit-replicate)
+<p align="center">
+  <a href="https://codespaces.new/rodolso/chatbot-streamlit-replicate">
+    <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces"/>
+  </a>
+</p>
 
 
 ### Opción 3: Instalación local
@@ -56,7 +67,7 @@ pip install -r requirements.txt
 
 ## Instrucciones
 
-Para completar correctamente el taller, y construir el asistente de IA, debes seguir las actividades incluidas en los cuadernos Jupyter del repositorio:
+Para construir nuestro asistente de IA debes seguir las actividades incluidas en los cuadernos Jupyter del repositorio:
 
 ### Parte 1 — Uso de la API de Replicate  
 **Archivo:** `01_Como_Usar_Replicate.ipynb`
@@ -70,14 +81,14 @@ Para completar correctamente el taller, y construir el asistente de IA, debes se
 - Construirás la interfaz web del chatbot paso a paso con Streamlit.  
 - Implementarás la gestión del estado de sesión, el envío de mensajes y la recepción de respuestas en tiempo real.
 
-Al finalizar ambas partes, tendrás un asistente conversacional completamente funcional y listo para desplegar en Streamlit Cloud.
+Al finalizar ambas partes, tendrás un asistente conversacional completamente funcional y listo para desplegar en *Streamlit Cloud*.
 
 ## Consideraciones de seguridad
 
 - No subas credenciales o tokens al repositorio.  
 - Usa el archivo `secrets.toml` únicamente en desarrollo local.  
 - Verifica que el archivo `.streamlit/secrets.toml` esté correctamente excluido del control de versiones.
-- Opcional: Configura los secretos directamente en el entorno de producción (Streamlit Cloud).  
+- Opcional: Configura los secretos directamente en el entorno de producción (*GitHub Codespaces* y *Streamlit Cloud*).  
 
 ## Costes estimados
 
